@@ -1,0 +1,112 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    overflow-y: hidden
+}
+
+.logo-alura{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+
+main{
+    display:flex;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+
+.encriptar-mensaje{
+    height: 330px;
+    border: none;
+    color: #0A3871;
+    margin: 30px 0 20px 50px;
+    padding:2px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0A3871;}
+    .encriptar-mensaje:focus{
+        outline: none;
+    }
+
+.info{
+    font-size:small;
+    margin-left: 50px;
+}
+
+.botones{
+    display:flex;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.boton-encriptador{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#FFFFFF;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    margin: 10px 20px 10px 0;
+}
+
+.boton-encriptador:hover{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.boton-desencriptador{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#FFFFFF;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    margin: 10px 0 10px 20px;
+}
+
+.boton-desencriptador:hover{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.mensaje-secreto{
+    background: #FFFFFF;
+    background-image: url("Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position:center;
+    border: none;    
+    border-radius: 32px;
+    color: #0A3871;
+    margin-left: 150px;
+    padding: 80px 20px;
+    position: fixed;
+}
+
+.mensaje-secreto:focus{
+    outline: none;
+}
+
+.boton-copiar{
+    border: 1px solid #0A3871;
+    border-radius:24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin: 450px 0 0 190px;
+    position: absolute;
+    width: 250px;
+}
+
+.boton-copiar:hover{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
