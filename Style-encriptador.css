@@ -87,7 +87,7 @@ main{
     color: #0A3871;
     margin-left: 150px;
     padding: 80px 20px;
-    position: fixed;
+    position:absolute;
 }
 
 .mensaje-secreto:focus{
@@ -110,3 +110,25 @@ main{
     color: #0A3871;
 }
 
+@media screen and(min-width: 370px) {
+    body{
+        width: 30%;
+        display:flex;
+        justify-content: flex-start;
+        text-align: center;
+        flex-wrap: wrap ;
+    }
+
+ .logo-alura{
+        width: 40%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+ .mensaje-secreto{
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

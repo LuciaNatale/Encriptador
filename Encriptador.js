@@ -38,11 +38,3 @@ function desencriptar (stringDesencriptar){
     }
     return stringDesencriptar
 }
-
-function botonCopiar(){ 
-    let mensajeSecreto = mensajeSecreto.value
-    navigator.clipboard.writeText(mensaje-Secreto.value)
-    mensajeSecreto.value = "";
-    alert("Texto Copiado")
-}
-
